@@ -1,0 +1,11 @@
+<nav>
+    {% for Subsite in site.data.navigation %}
+        <a href="{{ Subsite.link }}"
+            {% if page.url == Subsite.link %}
+                class="current"
+            {% endif %}
+        >
+            {{ Subsite.name }}
+        </a>
+    {% endfor %}
+</nav>
