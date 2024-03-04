@@ -4,6 +4,7 @@
     font-size: larger;
     font-weight: bold;
     font-family: "Anta", sans-serif;
+    height: 60px;
 }
 
 .navbar a {
@@ -34,8 +35,5 @@
 .navbar .website-name {
     font-size: xx-large;
     margin-left: 10px;
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 20px;
+    line-height: 60px;
 }
