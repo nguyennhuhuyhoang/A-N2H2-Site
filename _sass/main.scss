@@ -12,21 +12,12 @@
     align-items: center;
 }
 
-.navbar .left-section {
-    display: flex;
-    align-items: center;
-}
-
-.navbar .right-section {
-    display: flex;
-    align-items: center;
-}
-
 .navbar a {
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 20px;
     margin-right: 10px;
+    margin-left: auto;
     text-decoration: none;
 }
 
