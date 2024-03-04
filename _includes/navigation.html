@@ -1,11 +1,13 @@
 <nav>
-    {% for Subsite in site.data.navigation %}
-        <a href="{{ Subsite.link | relative_url }}"
-            {% if page.url == Subsite.link %}
-                class="current"
-            {% endif %}
-        >
-            {{ Subsite.name }}
-        </a>
-    {% endfor %}
+    <div class="navbar">
+        {% for Subsite in site.data.navigation %}
+            <a href="{{ Subsite.link | relative_url }}"
+                {% if page.url == Subsite.link %}
+                    class="active"
+                {% endif %}
+            >
+                {{ Subsite.name }}
+            </a>
+        {% endfor %}
+    </div>
 </nav>
