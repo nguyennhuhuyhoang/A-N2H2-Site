@@ -1,7 +1,7 @@
 <nav>
     {% for Subsite in site.data.navigation %}
-        <a href="{{Subsite.link}}"
-            {% if page.url == {{Subsite.link}} %}
+        <a href="{{ Subsite.link | relative_url }}"
+            {% if page.url == {{ Subsite.link | relative_url }} %}
                 class="current"
             {% endif %}
         >
