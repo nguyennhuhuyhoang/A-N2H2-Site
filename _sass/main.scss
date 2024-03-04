@@ -1,7 +1,7 @@
 .navbar{
     background-color: #00ff00;
     overflow: hidden;
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
     font-family: monospace;
 }
@@ -23,4 +23,13 @@
 .navbar a.active {
     background-color: #ffffff;
     color: rgb(255, 0, 0);
+}
+
+.navbar img {
+    height: 40px;
+    float: left;
+}
+
+.navbar .website-name {
+    font-size: x-large;
 }
