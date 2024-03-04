@@ -6,15 +6,16 @@
     font-family: "Anta", sans-serif;
     height: 60px;
     color: #ffffff;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar a {
-    float: right;
-    display: block;
     color: #ffffff;
-    text-align: center;
-    padding: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
     text-decoration: none;
 }
 
@@ -31,8 +32,7 @@
 
 .navbar img {
     height: 40px;
-    float: left;
-    align-items: center;
+    margin-left: 10px;
 }
 
 .navbar .website-name {
