@@ -6,6 +6,7 @@
     font-family: "Anta", sans-serif;
     height: 60px;
     color: #ffffff;
+    position: relative;
 }
 
 .navbar a {
@@ -15,8 +16,6 @@
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    align-items: center;
-    position: relative;
 }
 
 .navbar a:hover {
